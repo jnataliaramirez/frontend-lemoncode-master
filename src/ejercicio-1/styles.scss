@@ -41,14 +41,16 @@ $colorThree: #F2DA63;
 }
 
 body {
-  margin    : 0.4rem 2rem;
-  box-sizing: content-box;
+  margin     : 0.4rem 2rem;
+  box-sizing : content-box;
+  font-family: 'Alkatra', cursive;
 }
 
 .wrapper {
   display       : flex;
   flex-direction: column;
   gap           : 1.5rem;
+  margin-top    : 24px;
 }
 
 .container {
