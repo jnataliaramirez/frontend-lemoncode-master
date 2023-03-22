@@ -17,5 +17,7 @@ En está unidad vimos temas como:
 ## Solución ejercicios
 ### Ejercicio 1
 ![solucion ejercicio uno del laboratorio de maquetación]()
+### Ejercicio 2
+![solucion ejercicio dos del laboratorio de maquetación]()
 
 
