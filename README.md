@@ -18,6 +18,6 @@ En está unidad vimos temas como:
 ### Ejercicio 1
 ![solucion ejercicio uno del laboratorio de maquetación](/src/images/exercise-1.png)
 ### Ejercicio 2
-![solucion ejercicio dos del laboratorio de maquetación](/src/images/exercise-2.png)
+![solucion ejercicio dos del laboratorio de maquetación](src/images/exersise-2.png)
 
 
