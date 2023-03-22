@@ -26,11 +26,10 @@ sans-serif;
 // - Border Radius
 $border-radius--theme2: 0.5em;
 // - Box shadow
-$box-shadow-theme2    : -26px -40px 46px 16px rgba(0, 0, 0, 0.1);
+$box-shadow-theme2    : -7px -8px 40px 8px rgba(0, 0, 0, 0.1);
 
 
-
-.wrapperSolution {
+.wrapper__solution {
   display        : flex;
   justify-content: space-around;
 }
@@ -39,6 +38,7 @@ $box-shadow-theme2    : -26px -40px 46px 16px rgba(0, 0, 0, 0.1);
   display       : flex;
   flex-direction: column;
   gap           : 0.7rem;
+
 }
 
 .box {
@@ -76,6 +76,36 @@ $box-shadow-theme2    : -26px -40px 46px 16px rgba(0, 0, 0, 0.1);
 
     & .box-shadow {
       box-shadow: $box-shadow-theme1;
+    }
+  }
+}
+
+.theme {
+  &__2 {
+    font-family: $font__principal--theme2;
+
+    & .box {
+      border-radius: $border-radius--theme2;
+    }
+
+    & .base {
+      background-color: $color__primary--theme2;
+    }
+
+    & .important {
+      background-color: $color__important--theme2;
+    }
+
+    & .warning {
+      background-color: $color__warning--theme2;
+    }
+
+    & .font-secondary {
+      font-family: $font__secondary--theme2;
+    }
+
+    & .box-shadow {
+      box-shadow: $box-shadow-theme2;
     }
   }
 }

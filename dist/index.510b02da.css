@@ -1,4 +1,4 @@
-.wrapperSolution {
+.wrapper__solution {
   justify-content: space-around;
   display: flex;
 }
@@ -44,6 +44,34 @@
 
 .theme__1 .box-shadow {
   box-shadow: 7px 8px 32px -8px #0000001a;
+}
+
+.theme__2 {
+  font-family: Lobster, cursive;
+}
+
+.theme__2 .box {
+  border-radius: .5em;
+}
+
+.theme__2 .base {
+  background-color: #f25e7a;
+}
+
+.theme__2 .important {
+  background-color: #920c25;
+}
+
+.theme__2 .warning {
+  background-color: #f9b3c0;
+}
+
+.theme__2 .font-secondary {
+  font-family: Tajawal, sans-serif;
+}
+
+.theme__2 .box-shadow {
+  box-shadow: -7px -8px 40px 8px #0000001a;
 }
 
 /*# sourceMappingURL=index.510b02da.css.map */
