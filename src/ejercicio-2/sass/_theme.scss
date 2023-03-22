@@ -1,0 +1,29 @@
+// Theme 1 
+// - Colors
+$color__primary--theme1   : #8BD9D1;
+$color__important--theme1 : darken($color__primary--theme1, 35%);
+$color__warning--theme1   : lighten($color__primary--theme1, 18%);
+// - Fonts
+$font__principal--theme1  : 'Poppins',
+sans-serif;
+$font__secondary--theme1: 'Work Sans',
+sans-serif;
+// - Border Radius
+$border-radius--theme1: 1em;
+// - Box shadow
+$box-shadow-theme1    : 7px 8px 32px -8px rgba(0, 0, 0, 0.1);
+
+// Theme 2 
+// - Colors
+$color__primary--theme2   : #F25E7A;
+$color__important--theme2 : darken($color__primary--theme2, 35%);
+$color__warning--theme2   : lighten($color__primary--theme2, 18%);
+// - Fonts
+$font__principal--theme2  : 'Lobster',
+cursive;
+$font__secondary--theme2: 'Tajawal',
+sans-serif;
+// - Border Radius
+$border-radius--theme2: 0.5em;
+// - Box shadow
+$box-shadow-theme2    : -7px -8px 40px 8px rgba(255, 143, 148, 0.9);

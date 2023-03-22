@@ -26,7 +26,7 @@ sans-serif;
 // - Border Radius
 $border-radius--theme2: 0.5em;
 // - Box shadow
-$box-shadow-theme2    : -7px -8px 40px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-theme2    : -7px -8px 40px 8px rgba(255, 143, 148, 0.9);
 
 
 .wrapper__solution {
@@ -38,7 +38,6 @@ $box-shadow-theme2    : -7px -8px 40px 8px rgba(0, 0, 0, 0.1);
   display       : flex;
   flex-direction: column;
   gap           : 0.7rem;
-
 }
 
 .box {
@@ -78,9 +77,7 @@ $box-shadow-theme2    : -7px -8px 40px 8px rgba(0, 0, 0, 0.1);
       box-shadow: $box-shadow-theme1;
     }
   }
-}
 
-.theme {
   &__2 {
     font-family: $font__principal--theme2;
 
