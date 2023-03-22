@@ -1,11 +1,49 @@
+.wrapperSolution {
+  justify-content: space-around;
+  display: flex;
+}
+
+.container {
+  flex-direction: column;
+  gap: .7rem;
+  display: flex;
+}
+
 .box {
-  width: 8rem;
-  height: 5rem;
-  border: 1px solid #000;
-  border-radius: .8em;
+  width: 9rem;
+  height: 4rem;
+  border: 1px solid gray;
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.theme__1 {
+  font-family: Poppins, sans-serif;
+}
+
+.theme__1 .box {
+  border-radius: 1em;
+}
+
+.theme__1 .base {
+  background-color: #8bd9d1;
+}
+
+.theme__1 .important {
+  background-color: #2c867c;
+}
+
+.theme__1 .warning {
+  background-color: #d0f0ec;
+}
+
+.theme__1 .font-secondary {
+  font-family: Work Sans, sans-serif;
+}
+
+.theme__1 .box-shadow {
+  box-shadow: 7px 8px 32px -8px #0000001a;
 }
 
 /*# sourceMappingURL=index.510b02da.css.map */

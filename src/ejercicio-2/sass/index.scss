@@ -1,9 +1,81 @@
+// Theme 1 
+// - Colors
+$color__primary--theme1   : #8BD9D1;
+$color__important--theme1 : darken($color__primary--theme1, 35%);
+$color__warning--theme1   : lighten($color__primary--theme1, 18%);
+// - Fonts
+$font__principal--theme1  : 'Poppins',
+sans-serif;
+$font__secondary--theme1: 'Work Sans',
+sans-serif;
+// - Border Radius
+$border-radius--theme1: 1em;
+// - Box shadow
+$box-shadow-theme1    : 7px 8px 32px -8px rgba(0, 0, 0, 0.1);
+
+// Theme 2 
+// - Colors
+$color__primary--theme2   : #F25E7A;
+$color__important--theme2 : darken($color__primary--theme2, 35%);
+$color__warning--theme2   : lighten($color__primary--theme2, 18%);
+// - Fonts
+$font__principal--theme2  : 'Lobster',
+cursive;
+$font__secondary--theme2: 'Tajawal',
+sans-serif;
+// - Border Radius
+$border-radius--theme2: 0.5em;
+// - Box shadow
+$box-shadow-theme2    : -26px -40px 46px 16px rgba(0, 0, 0, 0.1);
+
+
+
+.wrapperSolution {
+  display        : flex;
+  justify-content: space-around;
+}
+
+.container {
+  display       : flex;
+  flex-direction: column;
+  gap           : 0.7rem;
+}
+
 .box {
   display        : flex;
   justify-content: center;
   align-items    : center;
-  width          : 8rem;
-  height         : 5rem;
-  border-radius  : 0.8em;
-  border         : 1px solid black;
+  width          : 9rem;
+  height         : 4rem;
+  border         : 1px solid gray;
+}
+
+.theme {
+  &__1 {
+    font-family: $font__principal--theme1;
+
+    & .box {
+      border-radius: $border-radius--theme1;
+    }
+
+    & .base {
+      background-color: $color__primary--theme1;
+    }
+
+    & .important {
+      background-color: $color__important--theme1;
+    }
+
+    & .warning {
+      background-color: $color__warning--theme1;
+    }
+
+    & .font-secondary {
+      font-family: $font__secondary--theme1;
+    }
+
+    & .box-shadow {
+      box-shadow: $box-shadow-theme1;
+    }
+  }
 }

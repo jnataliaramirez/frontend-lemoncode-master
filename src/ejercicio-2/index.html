@@ -9,7 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Franklin:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Work+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Tajawal&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -23,24 +29,34 @@
           Ejercicio 2: Crear dos temas distintos y mostrar los resultados en una
           página.
         </h2>
-        <p>Los cambios en el tema afectan a las siguientes características:</p>
-        <ul>
-          <li>Color</li>
-          <li>Fuente</li>
-          <li>Border Radius</li>
-          <li>Shadow Box</li>
-        </ul>
+        <p>
+          Los cambios en el tema afectan a las siguientes características:
+          color, fuente, border radius y shadow box
+        </p>
       </section>
       <section>
         <h2>Solución</h2>
-        <article>
-          <div>Base</div>
-          <div>Important</div>
-          <div>Warning</div>
-          <p>Principal font</p>
-          <p>Secondary font</p>
-          <div>Box with shadow</div>
-        </article>
+        <div class="wrapperSolution">
+          <article class="container theme__1">
+            <h3>Theme 1</h3>
+            <div class="box base">Base</div>
+            <div class="box important">Important</div>
+            <div class="box warning"">Warning</div>
+            <p>Principal font</p>
+            <p  class="font-secondary">Secondary font</p>
+            <div class="box box-shadow">Box with shadow</div>
+          </article>
+
+          <article class="container theme__2">
+            <h3>Theme 2</h3>
+            <div class="box">Base</div>
+            <div class="box">Important</div>
+            <div class="box">Warning</div>
+            <p>Principal font</p>
+            <p class="font-secondary">Secondary font</p>
+            <div class="box">Box with shadow</div>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
