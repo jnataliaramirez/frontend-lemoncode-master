@@ -1,0 +1,30 @@
+{
+  "name": "layout-lemoncode-master",
+  "version": "1.0.0",
+  "description": "activities-master",
+  "main": "i/ndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnataliaramirez/layout-lemoncode-master.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "layout",
+    "maquetacion"
+  ],
+  "author": "jnataliaramirez/lemoncode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnataliaramirez/layout-lemoncode-master/issues"
+  },
+  "homepage": "https://github.com/jnataliaramirez/layout-lemoncode-master#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "2.8.3"
+  }
+}
