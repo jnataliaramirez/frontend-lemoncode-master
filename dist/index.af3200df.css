@@ -1,0 +1,141 @@
+body {
+  box-sizing: content-box;
+  margin: .4rem 2rem;
+  font-family: Alkatra, cursive;
+}
+
+.wrapper {
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 24px;
+  display: flex;
+}
+
+.container {
+  gap: 1rem;
+  display: flex;
+}
+
+.container__box {
+  width: 8rem;
+  height: 5rem;
+  color: #fff;
+  border-radius: .8em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container :nth-last-child(-n+4) {
+  color: #000;
+}
+
+.color_one .container__box {
+  background-color: #f25c84;
+}
+
+.color_one :nth-child(1) {
+  background-color: #490618;
+}
+
+.color_one :nth-child(2) {
+  background-color: #900b2f;
+}
+
+.color_one :nth-child(3) {
+  background-color: #d71146;
+}
+
+.color_one :nth-child(4) {
+  background-color: #ec154f;
+}
+
+.color_one :nth-last-child(4) {
+  background-color: #f582a1;
+}
+
+.color_one :nth-last-child(3) {
+  background-color: #f79eb6;
+}
+
+.color_one :nth-last-child(2) {
+  background-color: #f9b1c4;
+}
+
+.color_one :nth-last-child(1) {
+  background-color: #fabacb;
+}
+
+.color_two .container__box {
+  background-color: #9c4ea6;
+}
+
+.color_two :nth-child(1) {
+  background-color: #000;
+}
+
+.color_two :nth-child(2) {
+  background-color: #2a152d;
+}
+
+.color_two :nth-child(3) {
+  background-color: #5b2d61;
+}
+
+.color_two :nth-child(4) {
+  background-color: #6b3672;
+}
+
+.color_two :nth-last-child(4) {
+  background-color: #ae66b7;
+}
+
+.color_two :nth-last-child(3) {
+  background-color: #b97bc1;
+}
+
+.color_two :nth-last-child(2) {
+  background-color: #c088c7;
+}
+
+.color_two :nth-last-child(1) {
+  background-color: #c48fcb;
+}
+
+.color_three .container__box {
+  background-color: #f2da63;
+}
+
+.color_three :nth-child(1) {
+  background-color: #4f4307;
+}
+
+.color_three :nth-child(2) {
+  background-color: #967f0d;
+}
+
+.color_three :nth-child(3) {
+  background-color: #ddbb12;
+}
+
+.color_three :nth-child(4) {
+  background-color: #ecc91c;
+}
+
+.color_three :nth-last-child(4) {
+  background-color: #f5e389;
+}
+
+.color_three :nth-last-child(3) {
+  background-color: #f7eaa5;
+}
+
+.color_three :nth-last-child(2) {
+  background-color: #f9eeb8;
+}
+
+.color_three :nth-last-child(1) {
+  background-color: #faf0c1;
+}
+
+/*# sourceMappingURL=index.af3200df.css.map */

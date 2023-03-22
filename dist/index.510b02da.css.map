@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/ejercicio-2/sass/index.scss"],"sourcesContent":["\n\n.box {\n  display        : flex;\n  justify-content: center;\n  align-items    : center;\n  width          : 8rem;\n  height         : 5rem;\n  border-radius  : 0.8em;\n  border: 1px solid black;\n}"],"names":[],"version":3,"file":"index.510b02da.css.map","sourceRoot":"/__parcel_source_root/"}
