@@ -2,7 +2,44 @@ $colorOne  : #F25C84;
 $colorTwo  : #9C4EA6;
 $colorThree: #F2DA63;
 
-@mixin colorPalette ($color) {}
+@mixin colorPalette ($color) {
+  .container__box {
+    background-color: $color;
+  }
+
+  :nth-child(1) {
+    background-color: darken($color, 50%);
+  }
+
+  :nth-child(2) {
+    background-color: darken($color, 35%);
+  }
+
+  :nth-child(3) {
+    background-color: darken($color, 20%);
+  }
+
+  :nth-child(4) {
+    background-color: darken($color, 15%);
+  }
+
+  :nth-last-child(4) {
+    background-color: lighten($color, 8%);
+  }
+
+  :nth-last-child(3) {
+    background-color: lighten($color, 14%);
+  }
+
+  :nth-last-child(2) {
+    background-color: lighten($color, 18%);
+  }
+
+  :nth-last-child(1) {
+    background-color: lighten($color, 20%);
+  }
+
+}
 
 body {
   margin    : 0.4rem 2rem;
@@ -20,50 +57,28 @@ body {
   gap    : 1rem;
 
   &__box {
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
-    width           : 8rem;
-    height          : 5rem;
-    border-radius   : 0.8em;
-    background-color: $colorOne;
-    color           : white;
-  }
-
-  :nth-child(1) {
-    background-color: darken($colorOne, 50%);
-  }
-
-  :nth-child(2) {
-    background-color: darken($colorOne, 35%);
-  }
-
-  :nth-child(3) {
-    background-color: darken($colorOne, 20%);
-  }
-
-  :nth-child(4) {
-    background-color: darken($colorOne, 15%);
-  }
-
-  :nth-last-child(4) {
-    background-color: lighten($colorOne, 8%);
-  }
-
-  :nth-last-child(3) {
-    background-color: lighten($colorOne, 14%);
-  }
-
-  :nth-last-child(2) {
-    background-color: lighten($colorOne, 18%);
-  }
-
-  :nth-last-child(1) {
-    background-color: lighten($colorOne, 20%);
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 8rem;
+    height         : 5rem;
+    border-radius  : 0.8em;
+    color          : white;
   }
 
   :nth-last-child(-n+4) {
     color: black;
   }
+}
 
+.color_one {
+  @include colorPalette($colorOne)
+}
+
+.color_two {
+  @include colorPalette($colorTwo)
+}
+
+.color_three {
+  @include colorPalette($colorThree)
 }
