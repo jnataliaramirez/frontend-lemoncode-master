@@ -16,6 +16,19 @@ En está unidad vimos temas como:
 - CSS3
 - SASS
 
+## Correr en local 
+
+0. En la terminal instala parcel para el ambiente de desarrollo: 
+```shell
+  npm install --save-dev parcel
+```
+
+1. Ejecuta `parcel` en el archivo(carpeta) donde desear ver el ejercicio.
+```shell
+  npx parcel src/ejercicio-1/index.html
+```
+* Si deseas cambiar de ejercicio, eliminas el index.html de la carpeta `dist` y vuelves a ejecutar el anterior comando con la nueva ruta 
+
 ## Solución ejercicios
 
 ### Ejercicio 1
