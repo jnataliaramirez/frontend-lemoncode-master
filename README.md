@@ -20,7 +20,9 @@ En está unidad vimos temas como:
 ### Ejercicio 2
 ![solucion ejercicio dos del laboratorio de maquetación](src/images/exercise-2.png)
 ### Ejercicio 3
-![solucion ejercicio tres del laboratorio de maquetación](src/images/exercise-3a.png)
+[<img src="https://github.com/jnataliaramirez/layout-lemoncode-master/blob/78b50f5ef2328d159f8e73cfc54ae354e61678e6/src/images/exercise-3a.png" width="300px" align='center'
+      alt="solucion ejercicio tres móvil del laboratorio de maquetación" 
+      />]
 ![solucion ejercicio tres del laboratorio de maquetación](src/images/exercise-3b.png)
 ### Ejercicio 4
 ![solucion ejercicio dos del laboratorio de maquetación](src/images/exercise-4.mov)
