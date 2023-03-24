@@ -1,3 +1,33 @@
+.wrapper {
+  box-sizing: content-box;
+  margin: 0 25px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  height: 100vh;
+  flex-direction: column;
+  place-content: normal space-around;
+  display: flex;
+}
+
+h1, h2 {
+  margin: .2em 0;
+}
+
 .wrapper__solution {
   justify-content: space-around;
   display: flex;

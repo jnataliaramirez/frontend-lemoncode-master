@@ -1,12 +1,12 @@
 @import '../../sass/index.scss';
 @import 'variables';
-@import 'mixim';
+@import 'mixims';
 
 body {
   font-family: 'Alkatra', cursive;
 }
 
-.wrapper {
+.wrapper__solution {
   display       : flex;
   flex-direction: column;
   gap           : 1.5rem;
