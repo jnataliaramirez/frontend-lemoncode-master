@@ -18,10 +18,12 @@ En está unidad vimos temas como:
 ### Ejercicio 1
 ![solucion ejercicio uno del laboratorio de maquetación](/src/images/exercise-1.png)
 ### Ejercicio 2
-![solucion ejercicio dos del laboratorio de maquetación](src/images/exersise-2.png)
+![solucion ejercicio dos del laboratorio de maquetación](src/images/exercise-2.png)
 ### Ejercicio 3
 ![solucion ejercicio tres del laboratorio de maquetación](src/images/exersise-3a.png)
 ![solucion ejercicio tres del laboratorio de maquetación](src/images/exersise-3b.png)
+### Ejercicio 4
+![solucion ejercicio dos del laboratorio de maquetación](src/images/exercise-4.mov)
 
 
 
