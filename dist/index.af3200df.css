@@ -1,6 +1,23 @@
-body {
+* {
   box-sizing: content-box;
-  margin: .4rem 2rem;
+  margin: 0 25px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  * {
+    margin: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  * {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+}
+
+body {
   font-family: Alkatra, cursive;
 }
 

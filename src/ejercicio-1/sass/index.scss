@@ -1,48 +1,8 @@
-$colorOne  : #F25C84;
-$colorTwo  : #9C4EA6;
-$colorThree: #F2DA63;
-
-@mixin colorPalette ($color) {
-  .container__box {
-    background-color: $color;
-  }
-
-  :nth-child(1) {
-    background-color: darken($color, 50%);
-  }
-
-  :nth-child(2) {
-    background-color: darken($color, 35%);
-  }
-
-  :nth-child(3) {
-    background-color: darken($color, 20%);
-  }
-
-  :nth-child(4) {
-    background-color: darken($color, 15%);
-  }
-
-  :nth-last-child(4) {
-    background-color: lighten($color, 8%);
-  }
-
-  :nth-last-child(3) {
-    background-color: lighten($color, 14%);
-  }
-
-  :nth-last-child(2) {
-    background-color: lighten($color, 18%);
-  }
-
-  :nth-last-child(1) {
-    background-color: lighten($color, 20%);
-  }
-}
+@import '../../sass/index.scss';
+@import 'variables';
+@import 'mixim';
 
 body {
-  margin     : 0.4rem 2rem;
-  box-sizing : content-box;
   font-family: 'Alkatra', cursive;
 }
 

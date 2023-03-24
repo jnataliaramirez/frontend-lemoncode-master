@@ -13,22 +13,7 @@
 }
 ;
 
-* {
-  padding: 0px;
-}
-
 body {
-  margin: 0px 25px;
-
-  @include tablet {
-    margin: 0px 48px;
-  }
-
-  @include desktop {
-    max-width: 1120px;
-    margin   : 0px auto;
-  }
-
   display        : flex;
   flex-direction : column;
   justify-content: space-between;
