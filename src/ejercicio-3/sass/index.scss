@@ -1,17 +1,4 @@
-@mixin tablet {
-  @media all and (min-width:768px) {
-    @content
-  }
-}
-
-;
-
-@mixin desktop {
-  @media all and (min-width:1280px) {
-    @content
-  }
-}
-;
+@import '../../sass/index.scss';
 
 body {
   display        : flex;
@@ -19,7 +6,7 @@ body {
   justify-content: space-between;
   height         : 100vh;
   font-family    : 'Karla',
-  sans-serif;
+    sans-serif;
 }
 
 .header {
@@ -32,6 +19,8 @@ body {
     display       : flex;
     flex-direction: column;
     list-style    : none;
+    padding-left  : 0px;
+    
 
     &--item {
       display         : flex;

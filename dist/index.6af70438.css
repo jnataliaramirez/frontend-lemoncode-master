@@ -1,27 +1,28 @@
-* {
+.wrapper {
+  box-sizing: content-box;
+  margin: 0 25px;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
 }
 
 body {
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 25px;
   font-family: Karla, sans-serif;
   display: flex;
-}
-
-@media (min-width: 768px) {
-  body {
-    margin: 0 48px;
-  }
-}
-
-@media (min-width: 1280px) {
-  body {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
 }
 
 .header__title {
@@ -30,6 +31,7 @@ body {
 
 .header__list {
   flex-direction: column;
+  padding-left: 0;
   list-style: none;
   display: flex;
 }
